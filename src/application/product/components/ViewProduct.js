@@ -71,7 +71,7 @@ const ViewProduct = props => {
                       <td>
                         <img
                           alt={product.name}
-                          src={`${process.env.REACT_APP_BACKEND_URL}/${product.image}`}
+                          src={`${process.env.REACT_APP_BACKEND_URL}/product/${product.image}`}
                           style={{ height: 100, width: 100 }}
                         />
                       </td>
